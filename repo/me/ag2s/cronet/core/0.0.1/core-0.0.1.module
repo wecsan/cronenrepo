@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.ag2s.cronet",
+    "module": "core",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-cronet",
+          "version": {
+            "requires": "18.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.chromium.net",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.huawei.hms",
+          "module": "hquic-provider",
+          "version": {
+            "requires": "5.0.1.300"
+          },
+          "excludes": [
+            {
+              "group": "org.chromium.net",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.0.1.aar",
+          "url": "core-0.0.1.aar",
+          "size": 455892,
+          "sha512": "c511dc36a448a4b10a9c546f17b81eb464bcde2be8193012186c7f714d0dcd9482658a3535730c7383fd20f0a768c29bd088d74405de884f4f24589efdf97909",
+          "sha256": "bc59903107c8b490cf34a7b0030be23770b2b13089b850a45f1dfc8a50a8dbf6",
+          "sha1": "35c5f1070e6438a911b59631c4dbefb4da52fa22",
+          "md5": "0e323d5c2cdb26a20661d91938afd4d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-cronet",
+          "version": {
+            "requires": "18.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.chromium.net",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.huawei.hms",
+          "module": "hquic-provider",
+          "version": {
+            "requires": "5.0.1.300"
+          },
+          "excludes": [
+            {
+              "group": "org.chromium.net",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.0.1.aar",
+          "url": "core-0.0.1.aar",
+          "size": 455892,
+          "sha512": "c511dc36a448a4b10a9c546f17b81eb464bcde2be8193012186c7f714d0dcd9482658a3535730c7383fd20f0a768c29bd088d74405de884f4f24589efdf97909",
+          "sha256": "bc59903107c8b490cf34a7b0030be23770b2b13089b850a45f1dfc8a50a8dbf6",
+          "sha1": "35c5f1070e6438a911b59631c4dbefb4da52fa22",
+          "md5": "0e323d5c2cdb26a20661d91938afd4d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-0.0.1-sources.jar",
+          "url": "core-0.0.1-sources.jar",
+          "size": 13890,
+          "sha512": "b5a3bd15f85fdae9c1ea192962cd4213a65d2e5d54e7ef8585a2821e3708302d179549142270dc53b5b6e1e00c496fab3e8e93febdfefe810a163a0e5105349a",
+          "sha256": "95ac6d6dc6bd299111e7efc4536e08e5b571a4bb570cf4632f102e6c82a42ab3",
+          "sha1": "10f6675e34eb4d895d52dcf843c4d623623fc01a",
+          "md5": "fe8b439c1fcf72117f282b2160e4a2df"
+        }
+      ]
+    }
+  ]
+}
