@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>me.ag2s.cronet</groupId>
+  <artifactId>core</artifactId>
+  <version>dev-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20221122.015550</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20221122015550</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>dev-20221122.015550-1</value>
+        <updated>20221122015550</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>dev-20221122.015550-1</value>
+        <updated>20221122015550</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>dev-20221122.015550-1</value>
+        <updated>20221122015550</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>dev-20221122.015550-1</value>
+        <updated>20221122015550</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
